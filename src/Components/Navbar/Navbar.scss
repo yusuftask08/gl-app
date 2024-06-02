@@ -1,0 +1,88 @@
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 104px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #0000001a;
+  z-index: 10;
+
+  &-logo span {
+    color: #000;
+    font-size: 32px;
+    cursor: pointer;
+  }
+
+  &-search .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fafbfc;
+    border: 1px solid #dfe1e6;
+    border-radius: 5px;
+
+    svg {
+      font-size: 16px;
+      margin-left: 18px;
+      margin-right: 5px;
+      background-color: transparent;
+    }
+
+    input {
+      width: 300px;
+      border: none;
+      background: none;
+      outline: none;
+      width: 845px;
+      height: 40px;
+    }
+  }
+
+  &-links svg {
+    margin: 0 8px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &-user {
+    display: flex;
+    align-items: center;
+
+    &span {
+      margin-right: 10px;
+    }
+
+    &-name {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      margin-right: 10px;
+
+      span {
+        color: #262626;
+        font-weight: bold;
+      }
+
+      a {
+        color: #3c82f6;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &-avatar {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
