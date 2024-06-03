@@ -1,4 +1,51 @@
-.content {
-    flex: 1;
-    padding: 20px;
+.contact-page {
+  display: flex;
+  height: calc(100vh - 130px);
+
+  .sidebar-container {
+    background-color: #f8f9fa;
+  }
+
+  .content {
+    margin-left: 100px;
+    margin-top: 40px;
+
+    &-text {
+      color: #262626;
+      text-align: left;
+    }
+
+    &-sub-text {
+      color: #262626;
+      font-size: 14px;
+    }
+
+    &-badge {
+      span {
+        font-size: 14px;
+        color: #979797;
+      }
+    }
+  }
+
+  form {
+    margin-top: 40px;
+    max-width: 600px;
+    margin-right: auto;
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
 }

@@ -1,22 +1,20 @@
 .sidebar {
-  width: 200px;
-  background-color: #f8f9fa;
-  padding: 20px;
-  height: calc(100vh - 150px);
   position: relative;
   z-index: 1;
+  width: 200px;
+  padding: 20px;
 
-  &__menu {
+  &-menu {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-  &__category-title {
+  &-category-title {
     margin-top: 29px;
     margin-bottom: 18px;
   }
-  &__item {
+  &-item {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -29,7 +27,7 @@
     }
   }
 
-  &__icon {
+  &-icon {
     width: 20px;
     height: 20px;
     margin-right: 10px;

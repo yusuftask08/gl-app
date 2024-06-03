@@ -1,10 +1,15 @@
+/** Dependencies */
 import React from 'react';
+
+/** Icons */
+import SearchIcon from '../Icons/NavbarIcons/SearchIcon';
+import SettingsIcon from '../Icons/NavbarIcons/SettingsIcon';
+import InfoIcon from '../Icons/NavbarIcons/InfoIcon';
+import BellIcon from '../Icons/NavbarIcons/BellIcon';
+import PostIcon from '../Icons/NavbarIcons/PostIcon';
+
+/** Styles */
 import './Navbar.scss';
-import SearchIcon from '../Icons/SearchIcon';
-import SettingsIcon from '../Icons/SettingsIcon';
-import InfoIcon from '../Icons/InfoIcon';
-import BellIcon from '../Icons/BellIcon';
-import PostIcon from '../Icons/PostIcon';
 
 const Navbar = () => {
   return (
